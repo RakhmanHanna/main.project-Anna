@@ -1,0 +1,16 @@
+@import './fonts.scss';
+@import './constants.scss';
+@import './mixins.scss';
+@import './carousel.scss';
+@import './button.scss';
+@import './collections.scss';
+@import './catalog.scss';
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.home-section {
+  background-color: #F9F6F1;
+}
