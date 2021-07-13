@@ -1,11 +1,11 @@
 mixin modelsSection(title)
-section.models 
-    .container 
-        .models__titel= title
-        .models__content 
-            -for(var x=0;x<4;x++)
-                include ./model.pug
-        button.btn.btn-primary Все модели
-            img(src="../img/Arrow.png", alt="arrow")
+    section.models 
+        .container 
+            .models__titel= title
+            .models__content 
+                -for(var x=0;x<4;x++)
+                    include ./model.pug
+            button.btn.btn-primary Все модели
+                img(src="../img/Arrow.png", alt="arrow")
 +modelsSection('Новые модели')
 +modelsSection('Скидки до 90%')
